@@ -1,0 +1,139 @@
+@media (max-width: 75em) {
+  .container {
+    margin: 0;
+  }
+
+  .features {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 68.75em) {
+  html {
+    font-size: 50%;
+  }
+
+  .features {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 53.75em) {
+  .content {
+    flex-direction: column;
+  }
+
+  .features {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    display: none;
+  }
+
+  .navigation-list {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .navigation-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .navigation-item {
+    flex: 1;
+  }
+
+  .navigation-link {
+    justify-content: center;
+  }
+
+  .description-and-reviews {
+    padding: 2rem;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 43.75em) {
+  .navigation-link {
+    flex-direction: column;
+  }
+
+  .navigation-description {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  .navigation-item {
+    padding: 1.5rem 2rem;
+  }
+
+  .description-and-reviews {
+    flex-direction: column;
+    gap: 6rem;
+  }
+
+  .show-all-button {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .search-bar-container {
+    flex-basis: 100%;
+    order: 1;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .search-bar {
+    width: 70%;
+  }
+
+  .search-bar:focus {
+    width: 80%;
+  }
+
+  .header {
+    flex-wrap: wrap;
+    height: 15rem;
+    align-content: start;
+  }
+}
+
+@media (max-width: 28.75em) {
+  .navigation-description {
+    font-size: 1.4rem;
+  }
+
+  .navigation-item {
+    padding: 1.5rem 1rem;
+  }
+
+  .navigation-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .hotel-overview {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hotel-name {
+    order: 1;
+    padding: 2rem 1rem 2rem 1.5rem;
+    font-weight: 500;
+  }
+
+  .stars {
+    margin-left: 2rem;
+  }
+
+  .score {
+    font-size: 2rem;
+  }
+}
